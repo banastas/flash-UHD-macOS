@@ -11,13 +11,21 @@ Connect the drive. In Terminal:
 ```bash
 makemkvcon f -l
 ```
+If you get a "command not found" error, you may need to update your shell path. Google how to add MakeMKV binaries to your system $PATH.
+
+Once the command works, your output should look something like this:
+```
+Found 1 drives(s)
+00: /IOBDServices/7296B36D, /dev/rdisk20, /dev/rdisk20
+  HL-DT-ST_BD-RE_BP60NB10_1.02_212107081556_SIM04OBLC3053
+```
 Note the identifier returned (e.g., `/IOBDServices/7296B36D`) and current firmware version.
 
 ## 4. Obtain Correct Firmware
-Find the exact patched firmware for your model and version on the MakeMKV forum. Flashing the wrong file can brick the drive.
+Find the exact patched firmware for your model and version on the [MakeMKV forum](https://forum.makemkv.com/forum/viewtopic.php?f=16&t=19634). Flashing the wrong file can brick the drive.
 
 ## 5. Prepare Files
-Download `sdf.bin` from the MakeMKV site.  
+Download `sdf.bin` from the [MakeMKV site](https://makemkv.com/sdf.bin).  
 Place `sdf.bin` and the firmware file in the same directory.
 
 ## 6. Flash
