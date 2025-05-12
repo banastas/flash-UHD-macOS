@@ -1,7 +1,7 @@
 # Flashing UHD Blu‑ray Drives on macOS
 
 ## 1. Confirm Drive Compatibility
-Consult the MakeMKV forum list of “UHD‑friendly” models. Example reference: **LG BP60NB10**.
+Consult the MakeMKV forum list of “UHD‑friendly” models. Example reference: [**LG BP60NB10**](https://amzn.to/4gZl18F).
 
 ## 2. Install MakeMKV
 Download and install from <https://www.makemkv.com/>.
